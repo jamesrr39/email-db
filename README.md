@@ -17,6 +17,6 @@ build/email-db path/to/mbox/file.mbox path/to/new/sqlite.db
 ## To explore
 
 - Install sqlite (ubuntu: `apt install libsqlite3-dev`)
-- sqlite3 path/to/new/sqlite.db
+- `sqlite3 path/to/new/sqlite.db`
 - explore with SQL!
   - e.g. to see who has been sending lots of emails: `SELECT count(*), from_address FROM emails GROUP BY from_address ORDER BY count(*) asc;`
