@@ -1,12 +1,14 @@
 # email-db
 
-email-db writes summaries of your emails into an SQLite database so you can do analysis on them with SQL.
+email-db takes an [.mbox file](https://en.wikipedia.org/wiki/Mbox) (the default format when exporting from gmail and other services), and writes summaries of your emails into an SQLite database so you can do analysis on them with SQLite.
 
 ## Build the application
 
 ```
 make build_all
 ```
+
+The built application is create at `build/email-db`.
 
 ## Run the application to build the sqlite database
 
