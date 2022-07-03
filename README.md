@@ -18,6 +18,7 @@ build/email-db path/to/mbox/file.mbox path/to/new/sqlite.db
 
 ## To explore
 
+- Export your emails in `.mbox` format (e.g. [takeout.google.com](https://takeout.google.com) for gmail users)
 - Install sqlite (ubuntu: `apt install libsqlite3-dev`)
 - `sqlite3 path/to/new/sqlite.db`
 - explore with SQL!
